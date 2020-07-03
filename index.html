@@ -1,21 +1,42 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Jeopardy</title>
-  <link href="https://fonts.googleapis.com/css?family=Copse&display=swap"
-        rel="stylesheet">
-  <link rel="stylesheet" href="jeopardy.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jeopardy</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Copse&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="jeopardy.css" />
+  </head>
 
-<script src="https://unpkg.com/jquery"></script>
-<script src="https://unpkg.com/axios/dist/axios.js"></script>
-<script src="https://unpkg.com/lodash"></script>
-<script src="jeopardy.js"></script>
+  <body>
+    <h1>Jeopardy</h1>
 
-</body>
+    <button id="startGame">Start</button>
+
+    <i class="fa fa-spinner fa-spin fa-3x fa-fw hide"></i>
+    <span class="sr-only">Loading...</span>
+
+    <table id="board">
+      <thead>
+        <tr></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <script src="https://unpkg.com/jquery"></script>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script src="https://unpkg.com/lodash"></script>
+    <script src="jeopardy.js"></script>
+  </body>
 </html>

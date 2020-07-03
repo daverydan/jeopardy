@@ -5,3 +5,55 @@
   #8d2ab5
   #74119c
 */
+
+body {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+i {
+  margin: auto;
+}
+
+#board {
+  width: 100%;
+}
+
+th {
+  text-transform: capitalize;
+}
+
+th,
+td {
+  background: #060ce9;
+  color: #ffffff;
+  padding: 20px;
+}
+
+td {
+  min-height: 300px;
+}
+
+td.answer {
+  background: #28a200;
+}
+
+tr {
+  line-height: 22px;
+  text-align: center;
+}
+
+/* Hover States */
+button:hover,
+td:hover {
+  cursor: pointer;
+}
+
+/* Toggle Classes */
+.hide {
+  display: none;
+}
